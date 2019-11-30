@@ -34,7 +34,7 @@ const detectFace = (videoElement: HTMLVideoElement) => {
       faceApi.draw.drawDetections(canvas, resizeDetections);
       faceApi.draw.drawFaceLandmarks(canvas, resizeDetections);
       faceApi.draw.drawFaceExpressions(canvas, resizeDetections);
-    }, 100);
+    }, 200);
   });
 };
 
