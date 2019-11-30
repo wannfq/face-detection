@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "outDir": "build",
+    "baseUrl": "src/"
+  },
+  "include": ["src/main.ts"],
+  "exclude": ["node_modules", "src/**/*.test.ts"]
+}
